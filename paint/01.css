@@ -1,0 +1,35 @@
+body{
+    width: 700px;
+    height: 600px;
+    border: 1px solid rgb(225, 0, 255);
+    display: flex;
+    margin:  auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.control{
+    border-right: 1px solid black ;
+}
+.select-color{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+ #draw{
+    cursor: pointer;   
+ }
+
+ #btn{
+    position: absolute;
+    padding: 10px;
+    right: 0px;
+    bottom: 0px;
+ }
+
+ #fullscreen{
+     position: absolute;
+     padding: 10px;
+     right: 50px;
+     bottom: 0px;
+ }
